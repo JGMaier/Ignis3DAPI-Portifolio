@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+
+# Virtual environments
+.env
+.venv/
+venv/
+ENV/
+
+# IDEs e editores
+.vscode/
+.idea/
+*.swp
+
+# Logs e cache
+*.log
+*.sqlite3
+*.db
+.cache/
+*.pid
+
+# macOS
+.DS_Store
+
+# Alembic migrations (se não quiser versionar os arquivos gerados)
+alembic/versions/*.py
